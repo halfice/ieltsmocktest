@@ -36,6 +36,16 @@ export class Writing extends React.Component {
 
                 </div>
                 <h3>Total Word : {this.state.WordCount}</h3>
+                <br/>
+                <h3>TIPS</h3>
+                <div>
+                    
+                    <ul>
+                        <li>Formal - > Dear Sir / Madam , End with Your faithfully</li>
+                        <li>Semi Formal  - > Dear Mr Brown  , End with      Yours Sincerely</li>
+                        <li>Informal Letter - > Dear John  - > Best Wishes  Warmwishes</li>
+                    </ul>
+                    </div>>
             </div>
         );
     }
