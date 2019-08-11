@@ -112,11 +112,11 @@ export class App extends React.Component {
 
 
           {this.state.WritingTask1 == true &&
-            <Writing TimeTogo="1200000"  placeholder="Writing Task 1 - 20 Minutes" />
+            <Writing minutess="40" TimeTogo="1200000"  placeholder="Writing Task 1 - 20 Minutes" />
           }
 
           {this.state.WritingTask2 == true &&
-            <Writing TimeTogo="2400000"   placeholder="Writing Task 2 - 40 Minutes"  />
+            <Writing minutess="20" TimeTogo="2400000"   placeholder="Writing Task 2 - 40 Minutes"  />
           }
 
           {this.state.listenning == true &&
